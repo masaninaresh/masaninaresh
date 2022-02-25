@@ -1,0 +1,54 @@
+#division of two numbers by using global variable
+'''global div
+a=10
+b=30
+def calculate():
+    sum=a+b
+    div=sum/2
+    print(type(sum),sum,int(div),type(div))
+calculate()'''
+
+
+'''global div
+def calculate():
+    sum=40
+    div=sum/2
+    print(type(sum),sum,int(div),type(div))
+calculate()'''
+
+'''print(a[:-5])
+print(len(a))
+print((a[::]))'''
+
+a="masani ntk"
+b="Naresh"
+c="Kumar"
+d="10"
+e="WELCOME"
+f=" "
+'''print(a.capitalize())#first character returns capital
+print(a.casefold())#casefold method returns lowercase
+
+print(a.count("n"))
+print(a.center(30))
+print(a.encode())
+print(a.endswith("m"))
+print(a.endswith("kumar"))
+print(a.endswith("Kumar"))
+print(a.expandtabs())
+print(a.find("K"))# it finds the position of the string
+print(a.index("n"))
+print(a.isalnum())
+print(a.isalpha())
+print(d.isdecimal())
+print(d.isdigit())
+print(d.isidentifier())
+print(a.islower())
+print(d.isnumeric())
+print(d.isprintable())
+print(f.isspace())
+print(e.istitle())
+print(e.isupper())
+print(b.ljust(5,"@"))
+print(b.lower())
+print(a.lstrip())'''
