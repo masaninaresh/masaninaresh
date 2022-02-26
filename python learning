@@ -52,3 +52,108 @@ print(e.isupper())
 print(b.ljust(5,"@"))
 print(b.lower())
 print(a.lstrip())'''
+
+'''for i in range(1,6):
+
+    if i==3:
+        continue
+    print(i)
+
+
+for i in range(1,6):
+
+    if i==3:
+        break
+    print(i)
+
+
+for i in range(1,6):
+    print(i)
+    if i==3:
+        continue
+
+for i in range(1,6):
+    print(i)
+    if i==3:
+        break
+
+b=["apple","banana","mango"]
+for i in b:
+    if i=="banana":
+        continue
+    print(i)
+
+a=333
+b=220
+if a>b:
+    print("a is greater")'''
+'''if a>b:
+    print("a is greater")
+else:
+    print("b is greater")'''
+'''if a>b:
+    print("a is greater than b")
+elif a==b:
+    print("a is equal to b")
+else:
+    print("a is less than b ")'''
+
+
+
+class student:
+    def student(a):
+        if a.marks>=40:
+            return "pass"
+        else:
+            return "fail"
+st1=student()
+st1.name="naresh"
+st1.marks=90
+print(st1.name)
+print(st1.marks)
+
+print(st1.student())
+'''
+def calculate():
+    a=10
+    b=20
+    c=a+b
+    print(c)
+calculate()
+
+x = lambda a,b,c:(a+b+c)**3
+print(x(2,3,4)
+class building:
+    def coaching(self):
+        if self.students==10:
+            print("coaching is python")
+        elif self.students==5:
+            print("coaching is both cad and python")
+        else:
+            print("cad coaching")
+room1=building()
+room2=building()
+room1.laptops=5
+room1.students=5
+room2.drawing="drawing table"
+room2.students=10
+print(room1.laptops)
+print(room1.students)
+print(room2.drawing)
+print(room2.students)
+print(room1.coaching())
+class laptop:
+    def laptop(self):
+        if self.ram==4:
+            return "its good"
+        else:
+            return "its bad"
+laptop1=laptop()
+laptop2=laptop()
+laptop1.ram=4
+laptop1.battery=4500
+laptop2.ram=2
+laptop2.battery=2000
+print(laptop2.ram)
+print(laptop1.laptop())
+print(laptop2.laptop())'''
