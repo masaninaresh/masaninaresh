@@ -157,3 +157,82 @@ laptop2.battery=2000
 print(laptop2.ram)
 print(laptop1.laptop())
 print(laptop2.laptop())'''
+'''x=2
+y=3.5
+z=10j
+a=float(x)
+b=complex(z)
+c=complex(y)
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+a="masani naresh"
+b="Masani Naresh"
+print(a.strip())
+print(a.replace('a','i'))
+print(a.split())
+print(b.lower())
+print(b[::])
+print(b[:-1])
+print(b[-1])
+print(b[2:])
+
+txt="the best things in life are free"
+if "free" in txt:
+    print("yes, 'free is present' ")
+txt = "the best things in life are free"
+if "expensive" not in txt:
+    print("yes, 'expensive is not present' ")
+txt="the best things in life are free"
+print("free" in txt)
+txt="the best things in life are free"
+print("expensive" not in txt)
+txt="the best things in life are free"
+print("expensive" in txt)
+a="masani"
+b="naresh"
+c=a+b
+print(c)
+x="hello"
+y=0
+print(bool(x))
+print(bool(y))
+x="naresh"
+y="naresh"
+print(x is y)
+x="naresh"
+y="masani"
+print(x is y)
+x="naresh"
+y="naresh"
+print(x is not y)
+x="naresh"
+y="masani"
+print(x is not y)
+
+#program on to add two numbers in python
+a=10
+b=20
+c=a+b
+print('addition of two numbers is ', c)
+#program on to print the  maximum of two numbers
+n1=int(input('enter a number 1'))
+n2=int(input('enter a number 2'))
+if n1>n2:
+    print('the maximum number is', n1)
+else:
+    print('the maximum number is ', n2)
+#using max function
+n1=int(input('enter a number 1'))
+n2=int(input('enter a number 2'))
+x= max(n1,n2)
+print(' Maximum number is', x)
+#si=ptr/100 program on simple intrest
+p=int(input('enter a principle amount'))
+r=int(input('enter a rate of intrest'))
+t=int(input('enter a time '))
+si=p*t*r/100
+print('the simple intrest of given data is ', (si))'''
