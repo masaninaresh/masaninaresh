@@ -238,6 +238,8 @@ si=p*t*r/100
 print('the simple intrest of given data is ', (si))'''
 
 
+list methods
+
 '''These are all the list methods using in python'''
 
 ssfrnd=["ani",  "par", "mah","mah"]
@@ -275,6 +277,78 @@ print(n)
 n.reverse()                 #reverse method- it is used to reverse a data in a list
 print(n)
 '''
+
+set methods
+
+
+'''These are all the set methods using in python'''
+'''
+ssfrnd={"ani",  "par", "mah"}
+ddfrnd={"sri", "shy","ven"}
+ssfrnd.add("jag")           #add method is using to add a data in a set
+print(ssfrnd)
+ddfrnd.copy()               #copy method is used to copy all the data in a set
+print(ddfrnd)
+ddfrnd.clear()              #clear method is used to clear all the data in a set its shown set() is printed ina output
+print(ddfrnd)
+#n1=ddfrnd1.difference(ssfrnd)      # difference method is used to returns a set that removes in two or more set in a same name
+#print(n1)
+ssfrnd.difference_update(ddfrnd1)   #difference update is used to returns a set that same name removes in a set
+
+print(ssfrnd)
+ssfrnd.discard("mah")               # discard method is used to remove specific item in a set
+print(ssfrnd)
+
+ssfrnd={"ani",  "par", "mah"}
+ddfrnd1={"sri", "par", "shy"}
+n=ssfrnd.intersection(ddfrnd1)      #intersection method is used to returns an same name in  a two or more sets
+print(n)
+
+ssfrnd={"ani",  "par", "mah"}
+ddfrnd1={"sri", "par", "shy"}
+ssfrnd.intersection_update(ddfrnd1)      #intersection method is used to returns an same name in  a two or more sets
+print(ssfrnd)
+
+ssfrnd1={"raj","ram","ravi"}
+ddfrnd2={"ravi","raj","ram"}
+n=ssfrnd1.isdisjoint(ddfrnd2)           #isdisjoint set method- returns boolena value
+print(n)
+n=ssfrnd1.issubset(ddfrnd2)             # issubset method- returns boolean value
+print(n)
+n=ssfrnd1.issuperset(ddfrnd2)           #isuperset method-returns boolean value
+print(n)
+
+ssfrnd1={"raj","ram","ravi"}
+ddfrnd2={"ravi","raj","ram"}
+#ddfrnd2.pop()                              # pop method removes random item from the set
+#print(ddfrnd2)
+ssfrnd3={"raj","ram","ravi"}
+ssfrnd3.remove("raj")                       #remove method removes a specific item 
+print(ssfrnd3)
+
+s1={"raj","ravi","ramesh"}
+d1={"ram","rakesh","ravi"}
+#f1=s1.symmetric_difference(d1)      #symmetric difference method used to remove a same name in two or more sets with new variable to print
+#print(f1)
+
+#s1.symmetric_difference_update(d1)    #symmetric difference method used to remove a same name in two or more sets without new variable to print
+#print(s1)
+#g1=s1.union(d1)                     #union method returns a set that containing a union of sets
+#print(g1)
+s2={"vis","mar","Vin","venky"}
+d2={"ksh","bmrd","venky"}
+s2.update(d2)                   #update method-update the set with another set or any other iterable repeats data prints only one time and updated
+print(s2)'''
+
+
+
+
+
+
+
+
+
+
 
 
 
