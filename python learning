@@ -350,9 +350,40 @@ print(mytuple.count(3))         #count method it counts the no of times present 
 print(mytuple.index(8))         # index method it retunrs a index of a given data in a tuple ex 8 given 8 index is 4 returns 4
 
 
+Dictionary Method
 
+'''These are Dictionaries methods in python '''
+'''frnd={"name":"mah", "class":"ssc","year":2012}
+my=0
+#print(frnd)
+#print(frnd.copy())      #copy method - copies all the data in a dictionary
+print(frnd.clear())     #clear all the data return empty dictionary 
+print(frnd)
 
+mydic={"key1","key2","key3"}
+edic={1,2,3}
+k=dict.fromkeys(mydic,edic)     #fromkkeys method returns a dict with specified keys and value
+print(k)
 
+frnd1={"name":"mah", "class":"ssc","year":2012}         #get method returns specific key value
+print(frnd1.get("year"))
+print(frnd1.items())                            #items method returns all the data in a dictionary
+
+dict=frnd1.keys()                           #keys methods returns keys in a dictionary
+dict=frnd1.values()                     #values methods returns values in a dictionary
+frnd1.update({"school":"GHS"})             #update method updates the data in a dictionary
+print(frnd1)
+frnd1.update({"name":"anil"})             #update method updates the data in a dictionary
+print(frnd1)
+frnd1={"name":"mah", "class":"ssc","year":2012}
+dict=frnd1.setdefault("class","dip")            #default method returns the value of specified key
+print(dict)
+frnd1={"name":"mah", "class":"ssc","year":2012}
+print(frnd1.popitem())                          #popitem method - Removes the last inserted key-value pair
+print(frnd1)
+frnd1={"name":"mah", "class":"ssc","year":2012}
+frnd1.pop("name")                                #pop method- Removes the element with the specified key
+print(frnd1)'''
 
 
 
