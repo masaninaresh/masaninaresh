@@ -236,3 +236,46 @@ r=int(input('enter a rate of intrest'))
 t=int(input('enter a time '))
 si=p*t*r/100
 print('the simple intrest of given data is ', (si))'''
+
+
+'''These are all the list methods using in python'''
+
+ssfrnd=["ani",  "par", "mah","mah"]
+ddfrnd=["sri", "shy","ven"]
+'''print(ssfrnd[1])
+print(ssfrnd.index("mah"))  #Index method
+ssfrnd.append("jag")        #append method
+print(ssfrnd)
+ssfrnd.extend(ddfrnd)       #extend method
+print(ssfrnd)
+ssfrnd.insert(2,"ravi")     #insert method
+print(ssfrnd)
+ddfrnd.remove("ven")        #remove method
+print(ddfrnd)
+numbers=[1,2,3,4,5,6,3,4,5,3,3,4,4,5,5,5,5]
+n1=numbers.count(3)         #Count method
+print(n1)
+frnd=ssfrnd.count("mah")
+print(frnd)
+n1=[5,3,4,6,2,1,8]
+frd=n1.pop(-1)              #pop method using slicing indexing
+print(frd)
+frd=n1.pop(4)               #pop method using normal indexing
+print(frd)
+
+n1= [5, 3, 4, 6, 2, 1, 8]
+n=n1.copy()                 #copy method returns a copy in a list
+print(n)
+n=n1.clear()                #clear method-clears all the data in a list then gets empty list printed in print(n1)
+print(n)
+print(n1)
+n=[2,4,3,1,6,5,8]
+n.sort()                    #sort method - is used to sort or ascending to decending changes in a list
+print(n)
+n.reverse()                 #reverse method- it is used to reverse a data in a list
+print(n)
+'''
+
+
+
+
