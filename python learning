@@ -385,6 +385,58 @@ frnd1={"name":"mah", "class":"ssc","year":2012}
 frnd1.pop("name")                                #pop method- Removes the element with the specified key
 print(frnd1)'''
 
+##-----<>---programs on list----<>------##
+
+''' # 1--->Python program to interchange first and last elements in a list
+
+def swap():
+    mylist=[10,23,87,65,35]
+    temp=mylist[0]
+    mylist[0]=mylist[-1]
+    mylist[-1]=temp
+    print(mylist)
+swap()
+
+# 2----> Python program to swap two elements in a list
+def swapposition(list,pos1,pos2):
+     list[pos1],list[pos2]=list[pos2],list[pos1]
+     return list
+list=[19,65,23,56]
+pos1,pos2=0,2
+print(swapposition(list,pos1,pos2))
+
+
+#3---->Python | Ways to find length of list
+
+list= [13,23,24,65,46,58,74,98]
+n=len(list)
+print("total length of the list is ", n)
+
+#4--------->  Python | Ways to check if element exists in list
+list=[1,2,4,6,7,4,5,8,9]
+for i in list:
+    if(i==4):
+        print("element found or Element exists in a given list")
+        break
+
+#5------>Different ways to clear a list in Python
+#1------>
+list=[15,30,23,43,23,25,63]
+clrlist=list.clear()
+print(clrlist)
+print(list)
+#2-------->
+list2=[21,23,43,15,64,75,36,74,37]
+list2=[]
+print(list2)
+
+#6------> program on Reversing a List
+list=[12,33,45,32,67,54,86,65]
+#1--->print(list[::-1])    #------>using Slicing
+#2--->list.reverse()        #-------> using reverse list method
+print(list)
+'''
+
 
 
 
