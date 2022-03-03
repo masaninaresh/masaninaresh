@@ -437,7 +437,44 @@ list=[12,33,45,32,67,54,86,65]
 print(list)
 '''
 
+'''#7-------> program to find the sum of elements in a list
+list=[12,3,2,54,67,43,67,43]
+total=0
+for ele in list:
+    total=total+ele
+print('the total sum of the elements in a list is', total)
+#8--------> multiply all the elements in a list
+list1=[1,5,6,2]
+mul=1
+for ele in list1:
+    mul=mul*ele
+print('the multiply of all elements in a list is',mul)
+#9-------------->to find smallest number in a list using 1.sort 2. min methods
+#1---->sort()
+list=[45,32,65,23,98,3,12]
+#list.sort()
+#print('smallest number in a list is',list[:1])
+#------>min
+print('the smallest number in a list is', min(list))
+#10-------------> To find the largest element in a list
+list=[45,32,65,23,98,3,12]
+#1-----> max method
+print(max(list))
+#2---------> sort method using slicing
+list.sort()
+print('the largest element in a list is',list[-1])
 
+#11----------------> to find the second largest element in a list
+#1--------------> sort
+list=[45,32,65,23,98,3,12]
+list.sort()
+print('the second largest element in a list is ', list[-2])
+#2-------> remove
+list=[45,32,65,23,98,3,12]
+new_list=set(list)
+new_list.remove(max(list))
+print('the second largest element in a list is',max(new_list))'''
+list=[45,32,65,23,98,3,12]
 
 
 
