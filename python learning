@@ -476,6 +476,66 @@ new_list.remove(max(list))
 print('the second largest element in a list is',max(new_list))'''
 list=[45,32,65,23,98,3,12]
 
+12------------> to find n largest elements in a list
+list=[235,34,239,89,376,96,87]
+n=int(input('enter a number'))
+list.sort()
+print('the largest elements in a list is:',list[-n:])
+
+#13------> to print even numbers in a list
+list1=[235,34,239,89,376,96,87]
+for i in list1:
+    if i%2==0:
+        print(i)
+
+
+#14----------> to print odd numbers in a list
+list1=[235,34,239,89,376,96,87]
+for i in list1:
+    if i%2==1:
+        print(i, end=" ")
+#15------> to print all even numbers in a range
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+for num in range(a,b+1):
+    if num%2==0:
+        print(num, end=" ")
+
+#16--------> to print all odd numbers in a range
+
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+for num in range(a,b+1):
+    if num%2==1:
+        print(num, end=" ")
+#chech whether a number is prime or nor
+
+n=int(input('enter a number'))
+
+if n>1:
+    for i in range(2,int(n/2)+1):
+        if n%i==0:
+            print(n,'is not a prime number')
+            break
+    else:
+        print(n,'num is prime number')
+else:
+    print(n,'num is not prime number')
+#17------------>Print all positive numbers in a given list
+
+list1=[-25,34,-19,89,-6,96,-9]
+for i in list1:
+    if i>0:
+        print(i)
+#18------------> print all negative numbers in a given list
+list1=[-25,34,-19,89,-6,96,-9]
+for i in list1:
+    if i<0:
+        print(i)
+#19 -------> remove multiple elements in a list
+list1=[-25,34,-19,89,-6,96,-9]
+del list1[1:5]
+print(list1)'''
 
 
 
