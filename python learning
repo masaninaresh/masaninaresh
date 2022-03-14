@@ -695,4 +695,19 @@ while True:
     show_score(1, black, 'calibri', 20)
     pygame.display.update()
     fps.tick(snake_speed)
+    
 '''
+
+from flask import Flask, jsonify, request
+app = Flask(__name__)
+@app.route('/', methods = ['GET', 'POST'])
+def home():
+	if(request.method == 'GET'):
+		data = "Hi, This is Naresh and first program done on API Restful application program on python"
+		return jsonify({'data': data})
+@app.route('/home/<int:num>', methods = ['GET'])
+def disp(num):
+	return jsonify({'data': num**2})
+if __name__ == '__main__':
+	app.run(debug = True)
+
